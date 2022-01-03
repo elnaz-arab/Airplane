@@ -6,7 +6,7 @@ namespace Airplane
     {
         [Key]
         public int Id { get; set; }
-        public int Id_Company { get; set; }
+        public int Id_Flight_name  { get; set; }
         public int Id_User { get; set; }
     }
 }

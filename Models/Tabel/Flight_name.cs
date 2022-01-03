@@ -1,5 +1,6 @@
+using System;
 using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 namespace Airplane
 {
     public class Flight_name
@@ -9,8 +10,11 @@ namespace Airplane
         public string Company { get; set; }
         public string Source { get; set; }
         public string Destination { get; set; }
-        public string Flight_date { get; set; }
-        public string flight_time { get; set; }
-        public string Duty { get; set; }
+        [Column("Flight_date", TypeName = "Date")]
+        public DateTime Flight_date { get; set; }
+
+        [Column("flight_time", TypeName = "Time")]
+        public TimeSpan Flight_time { get; set; }
+        public int Duty { get; set; }
     }
 }
