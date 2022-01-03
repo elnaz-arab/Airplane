@@ -12,7 +12,6 @@ namespace Airplane
         public string Destination { get; set; }
         [Column("Flight_date", TypeName = "Date")]
         public DateTime Flight_date { get; set; }
-
         [Column("flight_time", TypeName = "Time")]
         public TimeSpan Flight_time { get; set; }
         public int Duty { get; set; }
