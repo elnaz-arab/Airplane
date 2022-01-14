@@ -33,9 +33,11 @@
     ".NETCoreApp,Version=v5.0": {
       "Airplane/1.0.0": {
         "dependencies": {
+          "MD.PersianDateTime.Core": "2.3.5",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
+          "PersianDateShamsi": "1.0.2",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -332,6 +334,17 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "MD.PersianDateTime.Core/2.3.5": {
+        "runtime": {
+          "lib/netcoreapp2.0/MD.PersianDateTime.Core.dll": {
+            "assemblyVersion": "2.3.5.0",
+            "fileVersion": "2.3.5.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/MD.PersianDateTime.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
@@ -875,6 +888,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PersianDateShamsi/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/PersianDate.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/PersianDate.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -3194,6 +3218,13 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "MD.PersianDateTime.Core/2.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YPhSKavxetpRQggt7Z9wnobz6NUtz6lwbw7P8EnzjC1w2/0d/2EQUdkdVBp7KMWOzXjlJMLp3Hj0v1me6cRDLg==",
+      "path": "md.persiandatetime.core/2.3.5",
+      "hashPath": "md.persiandatetime.core.2.3.5.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
       "type": "package",
       "serviceable": true,
@@ -3459,6 +3490,13 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "PersianDateShamsi/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nZbZvTygjYZe7cr8kzd1Ih82puC9Q6TJ24Ap+1+b4tddNG/Nd2yHuMjnpVFCDh6wwcBmdgBLdYjCpIGwMxFHXA==",
+      "path": "persiandateshamsi/1.0.2",
+      "hashPath": "persiandateshamsi.1.0.2.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

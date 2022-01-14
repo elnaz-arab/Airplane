@@ -11,6 +11,15 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "MD.PersianDateTime.Core/2.3.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/MD.PersianDateTime.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/MD.PersianDateTime.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -647,6 +656,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PersianDateShamsi/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PersianDate.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PersianDate.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1744,6 +1762,19 @@
         "logo.png"
       ]
     },
+    "MD.PersianDateTime.Core/2.3.5": {
+      "sha512": "YPhSKavxetpRQggt7Z9wnobz6NUtz6lwbw7P8EnzjC1w2/0d/2EQUdkdVBp7KMWOzXjlJMLp3Hj0v1me6cRDLg==",
+      "type": "package",
+      "path": "md.persiandatetime.core/2.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.0/MD.PersianDateTime.Core.dll",
+        "lib/netcoreapp2.0/MD.PersianDateTime.Core.xml",
+        "md.persiandatetime.core.2.3.5.nupkg.sha512",
+        "md.persiandatetime.core.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
       "sha512": "G5x0jWIZKSsqiwEMXFFoxvUfK1H0P4GlnFHQdsN9+g6Peg2jFDFYldd0Rhkj1DMkhY8bsF1zleSrz1VDV1G3Zw==",
       "type": "package",
@@ -2723,7 +2754,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.1": {
-      "sha512": "MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
+      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
       "hasTools": true,
@@ -2747,6 +2778,19 @@
         "newtonsoft.json.10.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "PersianDateShamsi/1.0.2": {
+      "sha512": "nZbZvTygjYZe7cr8kzd1Ih82puC9Q6TJ24Ap+1+b4tddNG/Nd2yHuMjnpVFCDh6wwcBmdgBLdYjCpIGwMxFHXA==",
+      "type": "package",
+      "path": "persiandateshamsi/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/PersianDate.dll",
+        "persiandateshamsi.1.0.2.nupkg.sha512",
+        "persiandateshamsi.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5399,7 +5443,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -6369,29 +6413,32 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MD.PersianDateTime.Core >= 2.3.5",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
+      "PersianDateShamsi >= 1.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MY ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj",
+      "projectUniqueName": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj",
       "projectName": "Airplane",
-      "projectPath": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\obj\\",
+      "projectPath": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj",
+      "packagesPath": "C:\\Users\\MY ASUS\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MY ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6417,6 +6464,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MD.PersianDateTime.Core": {
+            "target": "Package",
+            "version": "[2.3.5, )"
+          },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
             "version": "[5.0.1, )"
@@ -6430,6 +6481,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.1, )"
+          },
+          "PersianDateShamsi": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [
@@ -6442,6 +6497,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6450,7 +6511,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace Airplane
@@ -10,6 +11,11 @@ namespace Airplane
         protected override void OnConfiguring(DbContextOptionsBuilder db)
         {
             db.UseSqlServer("Data Source =.; Initial Catalog = Airline ; Integrated Security = True");
+        }
+
+        internal DateTime ConvertShamsiToMiladi(string date)
+        {
+            throw new NotImplementedException();
         }
     }
 }

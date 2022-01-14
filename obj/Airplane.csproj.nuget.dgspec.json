@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj": {}
+    "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj": {
+    "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj",
+        "projectUniqueName": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj",
         "projectName": "Airplane",
-        "projectPath": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\Airplane.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Admin\\Desktop\\plane\\Airplane\\obj\\",
+        "projectPath": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\Airplane.csproj",
+        "packagesPath": "C:\\Users\\MY ASUS\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\MY ASUS\\Desktop\\Airplane\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MY ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MD.PersianDateTime.Core": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -56,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "PersianDateShamsi": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -68,6 +77,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
